@@ -1,9 +1,5 @@
 <template>
-  <Tutorial />
+  <h1>홈 페이지</h1>
 </template>
 
-<script>
-export default {
-  name: 'IndexPage',
-}
-</script>
+<script></script>
