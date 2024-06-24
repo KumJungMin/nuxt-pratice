@@ -6,6 +6,19 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import axios from 'axios'
+
+async function init() {
+  try {
+    const res = await axios.get('http://localhost:3000/products')
+    console.log(res)
+  } catch (err) {
+    console.error(err)
+  }
+}
+
+init()
+</script>
 
 <style></style>
